@@ -1,16 +1,26 @@
 name: vmf
-description: A sample command-line application.
+description: Professional CLI tool for automated Flutter flavors and versioning management. Handles Android build.gradle, keystores, signing configs, and semantic versioning.
 repository: https://github.com/Facundo14/vmf
+homepage: https://github.com/Facundo14/vmf
+documentation: https://github.com/Facundo14/vmf#readme
 version: 1.0.0
-# repository: https://github.com/my_org/my_repo
 
 environment:
   sdk: ^3.8.1
 
-# Add regular dependencies here.
 dependencies:
   args: ^2.4.2
 
 dev_dependencies:
   lints: ^5.0.0
   test: ^1.24.0
+
+executables:
+  vmf: vmf
+
+topics:
+  - flutter
+  - flavors
+  - android
+  - cli
+  - versioning

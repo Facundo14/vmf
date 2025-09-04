@@ -110,7 +110,7 @@ void _handleInit() {
 
   // 2. Leer y modificar el archivo gradle para agregar flavors y signingConfigs SOLO dentro de android { ... }
   // Hacer backup antes de modificar
-  final backupPath = gradleFile.path + '.bak';
+  final backupPath = '${gradleFile.path}.bak';
   gradleFile.copySync(backupPath);
   print('[vmf] Backup creado: $backupPath');
 

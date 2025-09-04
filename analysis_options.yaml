@@ -19,6 +19,12 @@ include: package:lints/recommended.yaml
 #   rules:
 #     - camel_case_types
 
+linter:
+  rules:
+    # Disable string concatenation warnings for this CLI tool
+    prefer_interpolation_to_compose_strings: false
+    prefer_adjacent_string_concatenation: false
+
 # analyzer:
 #   exclude:
 #     - path/to/excluded/files/**
