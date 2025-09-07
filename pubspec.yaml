@@ -4,7 +4,7 @@ repository: https://github.com/Facundo14/vmf
 homepage: https://github.com/Facundo14/vmf
 documentation: https://github.com/Facundo14/vmf#readme
 issue_tracker: https://github.com/Facundo14/vmf/issues
-version: 1.0.2
+version: 1.0.3
 
 environment:
   sdk: ^3.8.1

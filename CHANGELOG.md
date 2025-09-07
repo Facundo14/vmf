@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.3
+
+### 📝 Documentation
+
+- Added dartdoc comments to public API (`calculate`) to improve pub.dev scoring.
+
 ## 1.0.2
 
 ### ✨ Enhanced Example and Documentation
@@ -41,7 +47,7 @@ Perfect for developers who want to see vmf in action before implementing in thei
 #### 🔧 Improvements
 - **Enhanced pub.dev presentation** with examples
 - **Better documentation** structure
-- **Professional package presentation**
+- **Professional package presentation
 
 ## 1.0.0
 
